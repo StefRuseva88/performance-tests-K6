@@ -2,7 +2,7 @@
 ## This is a test project for Back-End Test Automation March 2024 Course @ SoftUni
 ---
 ### About
-This project demonstrates different Types of Performance Testing with Grafna/K6.
+This project demonstrates different Types of Performance Testing with Grafana/K6.
 
 ### Types of Tests Covered
 - Smoke Testing
