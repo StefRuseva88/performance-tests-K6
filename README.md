@@ -1,4 +1,19 @@
-# Performance Testing with K6
+# Performance Testing with Grafana/K6
 ## This is a test project for Back-End Test Automation March 2024 Course @ SoftUni
 ---
-Different Types of Performance Testing with k6
+### About
+This project demonstrates different Types of Performance Testing with Grafna/K6.
+
+### Types of Tests Covered
+- Smoke Testing
+- Load Testing
+- Stress Testing
+- Spike Testing
+- Soak or Endurance Testing
+- Breakpoint Testing
+### Contributing
+Contributions are welcome! Please submit a pull request or open an issue to discuss your changes.
+
+### License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
