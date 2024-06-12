@@ -13,7 +13,7 @@ This project demonstrates different Types of Performance Testing with Grafana/K6
 - **Breakpoint Testing:** Identifies the point at which the system fails or its performance degrades significantly.
 
 ### k6 Cloud
-If you're not a big fan of inspecting test execution results in the terminal, this section is for you because we will use k6 Cloud to run the tests and get some nice reports. As a side note, the correct name for k6 Cloud would be Grafana Cloud k6, but everyone calls it k6 Cloud.
+In addition you can use k6 Cloud to run the tests and get some nice reports.
 
 ### Setting Up k6 Cloud
 1. **Create a Grafana Cloud account:**
