@@ -36,7 +36,7 @@ In addition you can use k6 Cloud to run the tests and get some nice reports.
    k6 login cloud --token {your-token}
    
 ### Run Your Script in the Cloud
-1. ** Go to Testing & Synthetics -> Performance -> Projects**
+1. **Go to Testing & Synthetics -> Performance -> Projects**
    ```sh
    k6 cloud {your-script}.js
 
