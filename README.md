@@ -5,12 +5,46 @@
 This project demonstrates different Types of Performance Testing with Grafana/K6.
 
 ### Types of Performance Tests Covered
-- Smoke Testing: Quick tests to check the basic functionality of the application.
-- Load Testing: Evaluates how the system behaves under expected load conditions.
-- Stress Testing: Determines the system's robustness by testing beyond normal operational capacity.
-- Spike Testing: Assesses system performance under sudden, sharp increases in load.
-- Soak (Endurance) Testing: Tests the system's stability and performance over an extended period.
-- Breakpoint Testing: Identifies the point at which the system fails or its performance degrades significantly.
+- **Smoke Testing:** Quick tests to check the basic functionality of the application.
+- **Load Testing:** Evaluates how the system behaves under expected load conditions.
+- **Stress Testing:** Determines the system's robustness by testing beyond normal operational capacity.
+- **Spike Testing:** Assesses system performance under sudden, sharp increases in load.
+- **Soak (Endurance) Testing:** Tests the system's stability and performance over an extended period.
+- **Breakpoint Testing:** Identifies the point at which the system fails or its performance degrades significantly.
+
+### k6 Cloud
+If you're not a big fan of inspecting test execution results in the terminal, this section is for you because we will use k6 Cloud to run the tests and get some nice reports. As a side note, the correct name for k6 Cloud would be Grafana Cloud k6, but everyone calls it k6 Cloud.
+
+### Setting Up k6 Cloud
+1. **Create a Grafana Cloud account:**
+   - Use an existing login provider or register with your email and a password.
+
+2. **Navigate to k6 Cloud:**
+   - After registration, find your way to the k6 Cloud section since Grafana offers multiple products.
+
+### Running Tests on k6 Cloud
+1. **Log in to k6 Cloud:**
+   - Use the k6 CLI to connect to your cloud account. You'll need an API token.
+
+2. **Obtain Your API Token:**
+   - Go to k6 Cloud
+   - Navigate to **Testing & Synthetics -> Performance -> Settings**
+   - Copy your personal API token
+
+3. **Login via Terminal:**
+   ```sh
+   k6 login cloud --token {your-token}
+### Run Your Script in the Cloud
+- Go to Testing & Synthetics -> Performance -> Projects
+### Execute the Script:
+```sh
+k6 cloud first-script.js
+```
+### Further Studies
+
+- [Official k6 YouTube channel](https://www.youtube.com/c/k6test)
+- [Official k6 Documentation](https://grafana.com/docs/k6/latest/)
+
 ### Contributing
 Contributions are welcome! Please submit a pull request or open an issue to discuss your changes.
 
