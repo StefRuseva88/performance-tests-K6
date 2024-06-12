@@ -36,10 +36,7 @@ If you're not a big fan of inspecting test execution results in the terminal, th
    k6 login cloud --token {your-token}
 ### Run Your Script in the Cloud
 - Go to Testing & Synthetics -> Performance -> Projects
-### Execute the Script:
-```sh
-k6 cloud first-script.js
-```
+
 ### Further Studies
 
 - [Official k6 YouTube channel](https://www.youtube.com/c/k6test)
