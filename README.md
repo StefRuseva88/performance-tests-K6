@@ -17,10 +17,10 @@ In addition you can use k6 Cloud to run the tests and get some nice reports.
 
 ### Setting Up k6 Cloud
 1. **Create a Grafana Cloud account:**
-   - Use an existing login provider or register with your email and a password.[Grafana Cloud](https://grafana.com/products/cloud/)
+   - Use an existing login provider or register with your email and a password - [Grafana Cloud](https://grafana.com/products/cloud/)
 
 2. **Navigate to k6 Cloud:**
-   - After registration, find your way to the k6 Cloud section since Grafana offers multiple products.[k6 Cloud](https://grafana.com/products/k6-cloud/)
+   - After registration, find your way to the k6 Cloud section since Grafana offers multiple products - [k6 Cloud](https://grafana.com/products/k6-cloud/)
 
 ### Running Tests on k6 Cloud
 1. **Log in to k6 Cloud:**
