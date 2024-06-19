@@ -1,9 +1,9 @@
 # Performance Testing with Grafana/K6
-
+### This is a test project for Back-End Test Automation March 2024 Course @ SoftUni
 ![image](https://img.shields.io/badge/Node%20js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![image](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
 ![image](https://img.shields.io/badge/Grafana-F2F4F9?style=for-the-badge&logo=grafana&logoColor=orange&labelColor=F2F4F9)
-### This is a test project for Back-End Test Automation March 2024 Course @ SoftUni
+
 ---
 ## About
 This project demonstrates different Types of Performance Testing with Grafana/K6.
